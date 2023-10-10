@@ -21,3 +21,4 @@ for line in testdata['document']:
   pred_label=model.predict(line, threshold=0.5)[0]
   predictions.append(pred_label)
 
+# model.predict("오뚜기 진라면 매운맛")
